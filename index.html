@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+
+	<!---->
+	<!--localhost=(localhost:8887)-->
+	<link rel="stylesheet" href="http://127.0.0.1:8887/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+	<script src="http://127.0.0.1:8887/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+
+	<!--jsDeliver=(CDN)-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"></script>
+	<!---->
+</head>
+
+<body>
+	<!-- navbar -->
+	<div class="container-fluid navbar-a">
+		<nav class="navbar" id="navbar">
+			<a class="navbar-brand" href="index.html"><img id="navbarbrandimg" style="display:flex"
+					src="img/markflow-logo.svg" alt=""></a>
+			<div class="menu d-flex">
+				<ul class="navbar-nav mr-auto" id="navbar123123" style="display: flex">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Documentation</a>
+					</li>
+					<li class="sidenav-itembtn">
+						<button class="btn btn-primary btn-sm">Login</button>
+						<button class="btn btn-secondary btn-sm">Sign up</button>
+					</li>
+				</ul>
+				<span style="font-size:30px; cursor:pointer" class="ham" id="ham" onclick="openNav()"> &#9776;</span>
+				<!-- sidenav -->
+				<ul class="navbar-navsnav mr-auto" id="sidenavcon" style="display: none">
+					<div class="sidenav-itemsnav" id="sidenav">
+						<a class="sidenav-logo" href="index.html"><img src="img/markflow-logo.svg" alt=""></a>
+						<a href="javascript:void(0)" class="closebtnsnav" onclick="closeNav()">&times;</a>
+					</div>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Documentation</a>
+					</li>
+					<li class="sidenav-itembtnsnav">
+						<button class="btn btn-primary btn-sm">Login</button>
+						<button class="btn btn-secondary btn-sm">Sign up</button>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+
+	</div>
+
+	<!-- js toggle function -->
+	<script>
+		let sidenav = document.getElementById("sidenavcon")
+		let navbarbrandimg = document.getElementById("navbarbrandimg")
+		function openNav() {
+			navbarbrandimg.style.display = "none"
+			sidenav.style.display = "block"
+			console.log("opened")
+		}
+		function closeNav() {
+			sidenav.style.display = "none"
+			navbarbrandimg.style.display = "flex"
+			console.log("opened")
+		}
+	</script>
+
+
+
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<h1>Powerful marketing automation in just a few minutes</h1>
+			<h6>Create User Journeys so your leads and customers hear
+				from you at the pace you need, automatically</h6>
+			<img src="img/Group171.svg" alt="">
+		</div>
+	</div>
+	<!-- main content -->
+	<div class="main-content">
+		<div class="container">
+			<!-- feature block-1 -->
+			<div class="block-1">
+				<div class="container block-1-container">
+					<div class="row block-1-row-1 flex-column">
+						<div class="row block-1-row-1-text flex-column">
+							<h2>Increase your conversion rate in just a few minutes</h2>
+							<h6>Set it up and let Markflow do all the work automatically</h6>
+						</div>
+						<div class="block-1-row-1-btn" style="text-align: center;">
+							<a class="btn btn-primary" href="#">Create your first campaign</a>
+							<a class="btn btn-secondary" href="#">Learn more</a>
+						</div>
+					</div>
+					<div class="row block-1-row-2">
+						<div class="col-md-4 block-1-col-1">
+							<img src="img/Group12.svg" alt="">
+							<h5>Convert<br>more leads</h5>
+							<p>Provide value during the purchase decision stage to keep prospects engaged and win the
+								sale.</p>
+							<a href="#">Read more</a>
+						</div>
+						<div class="col-md-4 block-1-col-2">
+							<img src="img/Group5.svg" alt="">
+							<h5>Automate<br>customer care</h5>
+							<p>Own the relationship by engaging customers, automating every step providing value and
+								feedback, reducing churn rates.</p>
+							<a href="#">Read more</a>
+						</div>
+						<div class="col-md-4 block-1-col-3">
+							<img src="img/Group7.svg" alt="">
+							<h5>Increase<br>marketing ROI</h5>
+							<p>Save your marketing team hundreds of hours by designing user flows with our effortless
+								campaign generator.</p>
+							<a href="#">Read more</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- service block-2-->
+			<div class="block-2">
+				<div class="container">
+					<div class="row block-2-row">
+						<div class="col-lg-6">
+							<h3>Automation that<br>you will enjoy</h3>
+							<p>Help you and your team save hundreds of hours of manual work and money while standarizing
+								procedures so the customer experience is consistent along all your user journey.</p>
+							<p>Markflow is built to get started in minutes and to make it easy for your company to keep
+								improving your user flows quickly.</p>
+						</div>
+						<div class="col-lg-6 block-2-row-img" style="text-align:center;">
+							<img src="img/Group1.png" alt="">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- block-3 -->
+			<div class="block-3">
+				<div class="container">
+					<div class="row block-3-row">
+						<div class="col-lg-6 block-3-row-img" style="text-align:center;">
+							<img src="img/Group2.png" alt="">
+						</div>
+						<div class="col-lg-6">
+							<h3>Nice integration<br>with CRMs and websites</h3>
+							<p>If you have a CRM it is very easy to implement webhooks to synchronize contact data, any
+								developer can set them up in a few minutes!</p>
+							<p>If you have a website or a Wordpress it is easy to include ready-made online forms that
+								feed user flows.</p>
+						</div>
+						<div class="col-lg-6 block-3-row-img-dump" style="text-align:center;">
+							<img src="img/Group2.png" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- block-4 -->
+			<div class="block-4">
+				<div class="container">
+					<div class="row block-4-row">
+						<div class="block-4-row-1">
+							<h2>Start automating your company in just a few minutes</h2>
+							<h6>Grab a cup of tea and get it running before your last sip</h6>
+						</div>
+						<div class="block-4-row-2">
+							<a class="btn btn-primary" href="#">Create a free Markflow account</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- block-5 -->
+			<div class="block-5">
+				<div class="container">
+					<div class="row block-5-row-1">
+						<h3>Here's some of our User Flows</h3>
+						<h6>See how companies are using Markflow</h6>
+					</div>
+					<div class="row block-5-row-2">
+						<div class="col-lg-6 d-flex block-5-row-2-col-6">
+							<div class="col-3 block-5-row-2-col-3">
+								<div class="card-1 block-5-row-2-col-1">
+									<div class="img-card block-5-row-2-col-1-img">
+										<img src="img/Group95.svg" alt="">
+									</div>
+									<!-- <div class="hovertext">
+									<div class="hovertextin">
+										<h6 class="text-white pb-2 px-3">Provide value until the lead becomes a customer</h6>
+										<a href="#" class="btn btn-light">Read More</a>
+									</div>
+								</div> -->
+									<div class="text-card block-5-row-2-col-1-text-1">
+										<h6>Convert Leads to Sales</h6>
+										<p>Reduce CAC</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 block-5-row-2-col-3">
+								<div class="card-2 block-5-row-2-col-2">
+									<div class="img-card block-5-row-2-col-2-img">
+										<img src="img/Group108.svg" alt="">
+									</div>
+									<div class="text-card block-5-row-2-col-2-text">
+										<h6>Customer Ownership</h6>
+										<p>Improve LTV</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 d-flex block-5-row-2-col-6">
+							<div class="col-3 block-5-row-2-col-3">
+								<div class="card-3 block-5-row-2-col-3">
+									<div class="img-card block-5-row-2-col-3-img">
+										<img src="img/Group126.svg" alt="">
+									</div>
+									<div class="text-card block-5-row-2-col-3-text">
+										<h6>Reduce Churn</h6>
+										<p>Improve Quick Ratio</p>
+
+									</div>
+								</div>
+							</div>
+							<div class="col-3 block-5-row-2-col-3">
+								<div class="card-4 block-5-row-2-col-4">
+									<div class="img-card block-5-row-2-col-4-img">
+										<img src="img/Group115.svg" alt="">
+									</div>
+									<div class="text-card block-5-row-2-col-4-text">
+										<h6>Prioritize Tasks</h6>
+										<p>Resource Optimization</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- block-6 -->
+			<div class="block-6">
+				<div class="container block-6-container">
+					<div class="row block-6-row-1-text">
+						<h2>Create a free Markflow account</h2>
+						<h6>Automate your Sales and Marketing efforts<br>
+							And enjoy the beauty of things happening while you focus on something else</small>
+						</h6>
+					</div>
+					<div class="block-6-row-1-btn">
+						<a class="btn btn-primary" href="#">Sign up for the Free plan</a>
+						<a class="btn btn-secondary" href="#">See our Paid plans</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="container footer-container">
+			<div class="row footer-row">
+				<div class="col-lg-6 footer-1">
+					<div class="flex-50 footer-1-row1">
+						<img src="img/markflow-logo.svg" alt="">
+						<p><small>Powerful marketing automation in just a few minutes.
+								Create User Journeys so your leads and customers hear from you at the pace you need,
+								automatically.</small></p>
+						<p>hello@markflow.co</p>
+						<br>
+						<p><a href="#"><span class="mdi mdi-twitter"></span>@markflowCo</a></p>
+					</div>
+					<div class="flex-50 footer-col-hidden"></div>
+				</div>
+				<div class="col-lg-6 footer-2 d-flex" style="
+				align-items: center;">
+
+					<div class="col-md-3 footer-2-col1">
+						<h5>Legal</h5>
+						<a href="#">
+							<p></p>Terms of use</p>
+						</a>
+						<a href="#">
+							<p>Privacy policy</p>
+						</a>
+						<a href="#">
+							<p>About</p>
+						</a>
+						<a href="#">
+							<p>Contact</p>
+						</a>
+					</div>
+					<div class="col-md-3 footer-2-col2">
+						<h5>Knowledge Center</h5>
+						<a href="#">
+							<p>Quick start</p>
+						</a>
+						<a href="#">
+							<p>Documentation</p>
+						</a>
+						<a href="#">
+							<p>FAQ</p>
+						</a>
+						<a href="#">
+							<p>API</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row footer-row2">
+				<p>Copyright © 2020<a href="#">Markflow</a>All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

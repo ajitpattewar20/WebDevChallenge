@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="27px" viewBox="0 0 119 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>markflow-logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="markflow-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M4.3693927,19.5313519 C3.16963224,17.7658192 2.46852365,15.6340772 2.46852365,13.3385825 C2.46852365,7.24593377 7.40759132,2.30686609 13.5002401,2.30686609 C19.5928888,2.30686609 24.5319565,7.24593377 24.5319565,13.3385825 C24.5319565,15.7716199 23.7443119,18.0206931 22.4100964,19.8447285 C19.0007078,16.5910247 21.4827382,14.1705836 22.3706361,13.3455359 C16.6042186,13.1817657 18.6073544,20.8080304 16.0496159,19.5784749 C14.0908762,16.5210479 15.1135651,11.7912832 18.5978445,10.6229702 C9.15392182,9.10621979 10.5396404,19.9427466 8.76856663,18.7405732 C6.91161505,17.3528332 7.87666687,13.4619665 10.3839423,12.3558489 C5.44041542,12.1133674 3.98142221,17.0699981 4.3693927,19.5313519 Z" id="Combined-Shape" fill="#1998FF" transform="translate(13.500240, 11.075797) rotate(1.000000) translate(-13.500240, -11.075797) "></path>
+            <circle id="Oval" stroke="#1998FF" stroke-width="1.10000002" cx="13.5" cy="13.5" r="12.95"></circle>
+        </g>
+        <text id="markflow" font-family="Lato-Black, Lato" font-size="21.1200027" font-weight="700" letter-spacing="-1.32000022" fill="#1998FF">
+            <tspan x="33.2847946" y="19">markflo</tspan>
+            <tspan x="101.544643" y="19">w</tspan>
+        </text>
+    </g>
+</svg>
